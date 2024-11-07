@@ -56,3 +56,37 @@ text-align:center;
     color: rgb(0, 0, 0);
     border-right: 1px solid black;
 }
+@media only screen and (max-width: 1200px) {
+    .Left-side, .Right-side {
+        width: 100%;
+    }
+    .Left-side {
+        border: none;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .Image-tag {
+        padding-top: 10px;
+    }
+    .Left-side img {
+        width: 50%;
+        height: 50%;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    body {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .Left-side, .Right-side {
+        padding: 20px;
+    }
+    h2 {
+        font-size: 18px;
+    }
+    p {
+        font-size: 14px;
+    }
+}
