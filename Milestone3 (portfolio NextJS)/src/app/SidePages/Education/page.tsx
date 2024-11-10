@@ -1,11 +1,11 @@
-import Image from "next/image";
-import styles from "./page.module.css";
+//import Image from "next/image";
+//import styles from "./page.module.css";
 
 export default function Experience() {
   return (
     <div  className="right-side">
     <h1>Education</h1>
-      <h2>Bachelor's Degree</h2>
+      <h2>Bachelors Degree</h2>
         <h4>Sir Syed University of Engineering & Technology</h4>
         <p> Bachelor of Science in Computer Science (2020-2023)</p>
         <p>CGPA: 3.61/4.0</p>
